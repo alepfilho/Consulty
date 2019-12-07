@@ -1,0 +1,19 @@
+$gold-light: #fae56b;
+$gold-medium: #ecbf40;
+$gold-dark: #966d2d;
+
+
+.golden-text {
+  background: -webkit-linear-gradient(-80deg, $gold-dark, $gold-medium, $gold-light, $gold-medium, $gold-dark);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  transition: background 0.25s;
+  
+  &:hover {
+    background: -webkit-linear-gradient(-80deg, $gold-dark, $gold-medium, $gold-light, $gold-medium, $gold-medium, $gold-dark);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  
+}
